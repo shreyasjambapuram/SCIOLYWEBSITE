@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bridgeland Science Olympiad | Home</title>
+  <meta name="description" content="Official website of Bridgeland High School Science Olympiad. Discover our team, accomplishments, officers, and how to get involved." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="Assets/logo.png" alt="Bridgeland SciOly Logo" class="logo-icon" />
+        <span class="logo-text">Bridgeland <span class="highlight">SciOly</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#accomplishments" class="nav-link">Accomplishments</a></li>
+        <li><a href="#officers" class="nav-link">Officers</a></li>
+        <li><a href="#sponsors" class="nav-link">Sponsors</a></li>
+        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO / HOME ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-slideshow" id="heroSlideshow">
+      <div class="hero-slide active" style="background-image: url('background_pictures/b2f30c_044e7f08c8d64f9ca184772cb5b70df7~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+      <div class="hero-slide" style="background-image: url('background_pictures/b2f30c_79d989f3df094edea31b0df507d8d00e~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+      <div class="hero-slide" style="background-image: url('background_pictures/b2f30c_8e1c3a7e6f2444078e1940ae2dcd12f5~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+      <div class="hero-slide" style="background-image: url('background_pictures/b2f30c_9da46fb9f5b34ed58d621fe6b374dba4~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+      <div class="hero-slide" style="background-image: url('background_pictures/b2f30c_d18e6c90882b44819213882c27568826~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+      <div class="hero-slide" style="background-image: url('background_pictures/b2f30c_d90dfd120c194ca1bd26a3947dbe0981~mv2.avif');">
+        <div class="slide-overlay"></div>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-tag">Bridgeland High School</p>
+      <h1 class="hero-title">Science <span class="highlight">Olympiad</span></h1>
+      <p class="hero-subtitle">Pursuing excellence in science through competition, teamwork, and discovery.</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">Learn More</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Slide indicators -->
+    <div class="slide-indicators" id="slideIndicators">
+      <button class="indicator active" data-index="0" aria-label="Slide 1"></button>
+      <button class="indicator" data-index="1" aria-label="Slide 2"></button>
+      <button class="indicator" data-index="2" aria-label="Slide 3"></button>
+      <button class="indicator" data-index="3" aria-label="Slide 4"></button>
+      <button class="indicator" data-index="4" aria-label="Slide 5"></button>
+      <button class="indicator" data-index="5" aria-label="Slide 6"></button>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT US ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Who We Are</p>
+        <h2 class="section-title">About <span class="highlight">Us</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card" data-aos="fade-up">
+          <div class="about-card-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To foster a passion for STEM among students at Bridgeland High School through competitive Science Olympiad events, collaborative learning, and hands-on experimentation.</p>
+        </div>
+        <div class="about-card" data-aos="fade-up" data-delay="100">
+          <div class="about-card-icon">🏆</div>
+          <h3>What We Do</h3>
+          <p>We compete in regional, invitational, and state-level Science Olympiad tournaments across 23 events spanning life science, earth science, physical science, and engineering.</p>
+        </div>
+        <div class="about-card" data-aos="fade-up" data-delay="200">
+          <div class="about-card-icon">🤝</div>
+          <h3>Our Community</h3>
+          <p>More than a club — we're a family. Our members support each other in academics, competition prep, and beyond. Everyone is welcome regardless of experience level.</p>
+        </div>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Active Members</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="23">0</span>
+          <span class="stat-label">Competition Events</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Placements</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">Years Active</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ACCOMPLISHMENTS ===================== -->
+  <section class="section accomplishments" id="accomplishments">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Our Track Record</p>
+        <h2 class="section-title">Accomplish<span class="highlight">ments</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <span class="timeline-year">🏅 4-Year Streak</span>
+            <h3>1st Place — Regional &amp; District</h3>
+            <p>Dominated the competition by winning 1st place at both Regional and District Science Olympiad tournaments four consecutive years in a row.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <span class="timeline-year">🏆 State Ranking</span>
+            <h3>7th in the State of Texas</h3>
+            <p>Currently ranked 7th in the state, competing against hundreds of teams across Texas and continuing to climb the rankings each season.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OFFICERS ===================== -->
+  <section class="section officers" id="officers">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Meet the Team</p>
+        <h2 class="section-title">Our <span class="highlight">Officers</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="officers-grid">
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Aarush Bhavanam</h3>
+            <p class="officer-role">President</p>
+            <a href="mailto:aarush.bhavanam@gmail.com" class="officer-email">📧 aarush.bhavanam@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Jeffy</h3>
+            <p class="officer-role">Vice President</p>
+            <a href="mailto:jeffy@gmail.com" class="officer-email">📧 jeffy@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Giriish</h3>
+            <p class="officer-role">Tournament Director</p>
+            <a href="mailto:giriish@gmail.com" class="officer-email">📧 giriish@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Shreyas</h3>
+            <p class="officer-role">Secretary</p>
+            <a href="mailto:shreyas@gmail.com" class="officer-email">📧 shreyas@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Sravya</h3>
+            <p class="officer-role">Treasurer</p>
+            <a href="mailto:sravya@gmail.com" class="officer-email">📧 sravya@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Adyasha</h3>
+            <p class="officer-role">Social Chair</p>
+            <a href="mailto:adyasha@gmail.com" class="officer-email">📧 adyasha@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Abhinav</h3>
+            <p class="officer-role">Study Lead</p>
+            <a href="mailto:abhinav@gmail.com" class="officer-email">📧 abhinav@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Guhan</h3>
+            <p class="officer-role">Study Lead</p>
+            <a href="mailto:guhan@gmail.com" class="officer-email">📧 guhan@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Sohan</h3>
+            <p class="officer-role">Build Lead</p>
+            <a href="mailto:sohan@gmail.com" class="officer-email">📧 sohan@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Srikar</h3>
+            <p class="officer-role">Build Lead</p>
+            <a href="mailto:srikar@gmail.com" class="officer-email">📧 srikar@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Pranav</h3>
+            <p class="officer-role">Lab Lead</p>
+            <a href="mailto:pranav@gmail.com" class="officer-email">📧 pranav@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Pramith</h3>
+            <p class="officer-role">Lab Lead</p>
+            <a href="mailto:pramith@gmail.com" class="officer-email">📧 pramith@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Joshua</h3>
+            <p class="officer-role">Sophomore Captain</p>
+            <a href="mailto:joshua@gmail.com" class="officer-email">📧 joshua@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="officer-card">
+          <div class="officer-photo-placeholder"><span>Photo</span></div>
+          <div class="officer-info">
+            <h3 class="officer-name">Pranvi</h3>
+            <p class="officer-role">Sophomore Captain</p>
+            <a href="mailto:pranvi@gmail.com" class="officer-email">📧 pranvi@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SPONSORS ===================== -->
+  <section class="section sponsors" id="sponsors">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Partner With Us</p>
+        <h2 class="section-title">Become a <span class="highlight">Sponsor</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="sponsors-intro">
+        <p>Help fuel the next generation of scientists and engineers. Your sponsorship directly supports our students in competing at regional, state, and national Science Olympiad tournaments — covering materials, equipment, travel, and registration fees.</p>
+      </div>
+
+      <div class="sponsors-grid">
+        <div class="sponsor-benefit-card">
+          <div class="sponsor-benefit-icon">🎓</div>
+          <h3>Invest in Education</h3>
+          <p>Your support funds lab equipment, study materials, and competition entry fees that make it possible for our students to compete at the highest level.</p>
+        </div>
+        <div class="sponsor-benefit-card">
+          <div class="sponsor-benefit-icon">📣</div>
+          <h3>Brand Visibility</h3>
+          <p>Sponsors receive recognition on our website, social media, team uniforms, and at competition events — reaching students, families, and the broader STEM community.</p>
+        </div>
+        <div class="sponsor-benefit-card">
+          <div class="sponsor-benefit-icon">🌟</div>
+          <h3>Community Impact</h3>
+          <p>Align your brand with academic excellence and community involvement. Support a program that builds critical thinking, leadership, and teamwork in young scientists.</p>
+        </div>
+      </div>
+
+      <div class="sponsor-cta-banner">
+        <div class="sponsor-cta-content">
+          <h3>Interested in Sponsoring Our Team?</h3>
+          <p>We'd love to discuss partnership opportunities. Reach out to us and we'll send you our full sponsorship packet with tier details and benefits.</p>
+          <div class="sponsor-contact-methods">
+            <a href="mailto:bridgelandscienceolympiad@gmail.com?subject=Sponsorship%20Inquiry" class="btn btn-primary sponsor-email-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="margin-right: 8px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              bridgelandscienceolympiad@gmail.com
+            </a>
+            <div class="sponsor-contact-details">
+              <div class="sponsor-detail">
+                <span class="sponsor-detail-label">Subject Line</span>
+                <span class="sponsor-detail-value">"Sponsorship Inquiry"</span>
+              </div>
+              <div class="sponsor-detail">
+                <span class="sponsor-detail-label">Response Time</span>
+                <span class="sponsor-detail-value">Within 48 hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT / JOIN ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Reach Out</p>
+        <h2 class="section-title">Contact <span class="highlight">Us</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3>Ready to join Science Olympiad?</h3>
+          <p>Whether you're a seasoned competitor or just curious about science, there's a place for you on our team. No prior experience required!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Location</strong>
+                <p>Bridgeland High School<br />10707 Mason Rd, Cypress, TX 77433</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <p>bridgelandscienceolympiad@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📅</span>
+              <div>
+                <strong>Meetings</strong>
+                <p>Every Tuesday &amp; Thursday after school</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cta-card">
+          <div class="cta-content">
+            <h3>Interested?</h3>
+            <p>Follow us on Instagram and reach out to any of our officers to learn more about joining the team!</p>
+            <div class="social-links">
+              <a href="https://www.instagram.com/bridgelandscienceolympiad/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="Assets/logo.png" alt="Bridgeland SciOly Logo" class="logo-icon" />
+          <span class="logo-text">Bridgeland <span class="highlight">SciOly</span></span>
+          <p class="footer-tagline">Excellence in Science, Together.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#accomplishments">Accomplishments</a>
+          <a href="#officers">Officers</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bridgeland Science Olympiad. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
